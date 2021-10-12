@@ -5,11 +5,11 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\Lemandog\\PycharmProjects\\imageConverter\\venv\\Lib\\site-packages', 'C:\\Users\\Lemandog\\PycharmProjects\\imageConverter'],
+             pathex=['C:\\Users\\Lemandog\\PycharmProjects\\imageConverter\\venv2\\Lib\\site-packages', 'C:\\Users\\Lemandog\\PycharmProjects\\imageConverter'],
              binaries=[],
              datas=[],
              hiddenimports=[],
-             hookspath=[],
+             hookspath=['C:\\Users\\Lemandog\\PycharmProjects\\imageConverter\\venv2\\Lib\\site-packages'],
              hooksconfig={},
              runtime_hooks=[],
              excludes=[],
