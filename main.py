@@ -59,7 +59,7 @@ def convertImg(event):
             saveString = saveString.replace(".", "")
             img.save(saveString + "." + combobox.get(), format=combobox.get())
         except UnidentifiedImageError:
-            label.config(text="Неизвестный формат изображения, или оно повреждено")
+            label.config(text="Неизвестный формат изображения или оно повреждено")
 
 
 canvas.pack(side=RIGHT)
