@@ -11,7 +11,6 @@ ws = TkinterDnD.Tk()
 ws.resizable(height=False, width=False)
 ws.title("Конвертер Изображений")
 ws.geometry("400x400")
-ws.config(bg="#fcb103")
 
 formats = (
     "jpeg",
