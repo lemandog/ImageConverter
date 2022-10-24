@@ -1,3 +1,9 @@
+import subprocess
+import sys
+
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pillow'])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'tkinterdnd2'])
+
 from tkinter import *
 from tkinter import ttk
 
@@ -5,6 +11,9 @@ import PIL.Image
 from PIL import ImageTk
 from tkinterdnd2 import *
 from PIL import *
+
+# implement pip as a subprocess:
+
 
 ws = TkinterDnD.Tk()
 ws.resizable(height=False, width=False)
